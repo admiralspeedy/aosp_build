@@ -5,6 +5,6 @@ LOCAL_MODULE := CalculatorGoogle
 LOCAL_PACKAGE_NAME := com.google.android.calculator
 
 GAPPS_LOCAL_OVERRIDES_MIN_VARIANT :=
-GAPPS_LOCAL_OVERRIDES_PACKAGES := Calculator ExactCalculator
+GAPPS_LOCAL_OVERRIDES_PACKAGES := Calculator ExactCalculator Calculator2
 
 include $(BUILD_GAPPS_PREBUILT_APK)

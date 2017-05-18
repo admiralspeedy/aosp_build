@@ -4,6 +4,6 @@ include $(GAPPS_CLEAR_VARS)
 LOCAL_MODULE := PrebuiltExchange3Google
 LOCAL_PACKAGE_NAME := com.google.android.gm.exchange
 
-LOCAL_OVERRIDES_PACKAGES := Exchange2
+LOCAL_OVERRIDES_PACKAGES := Exchange2 Exchange
 
 include $(BUILD_GAPPS_PREBUILT_APK)
