@@ -36,7 +36,8 @@ GAPPS_PRODUCT_PACKAGES += \
     FaceLock
 endif
 GAPPS_PRODUCT_PACKAGES += \
-    Velvet
+    Velvet \
+    BatteryUsage
 
 ifneq ($(filter $(TARGET_GAPPS_VARIANT),micro),) # require at least micro
 GAPPS_PRODUCT_PACKAGES += \
@@ -88,7 +89,9 @@ GAPPS_PRODUCT_PACKAGES += \
     GoogleContacts \
     LatinImeGoogle \
     TagGoogle \
-    GoogleVrCore
+    GoogleVrCore \
+    StorageManagerGoogle \
+    ConfigUpdater
 
 ifneq ($(filter $(call get-allowed-api-levels),23),)
 GAPPS_FORCE_DIALER_OVERRIDES := true
